@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>函数的定义</title>
+<!--
+	js中函数定义的格式
+		function 函数名称(形参列表){
+			逻辑；
+		}
+		
+		函数的调用：
+		1) 单独调用
+		2） 赋值调用
+	注意事项：
+	 	1) 在js中定义函数，函数的形式参数不能带数据类型(不能用var定义)
+	 	2) js中可以有return语句，采用赋值调用
+	 	3) 在js中定义同名的函数，没有方法重载的概念，后面定义的函数会将前面定义的函数覆盖，调用时没有传三个参数的，
+	 	          即C是null，结果就是NaN。若实际参数个数多于形式参数，则只会计算有的那几个
+	 	4) 无论形式参数个数大于还是小于实际参数个数，函数都会被调用
+	 		形式参数>实际参数个数：NaN(没有意义的值)
+	 		形式参数<实际参数个数：会将实际参数的末尾多出来的值去掉
+	 	5) 存在默认书数组：数组名称：arguments
+	 		作用：将实际参数赋值给形式参数
+-->
+<script>
+	//定义求和函数
+	//形式参数不能用var定义，如function(var a,var b){}
+	function add(a,b){
+		var res = a+b;
+		document.write("结果是:"+res);
+	}
+	// 单独调用
+	add(10,20);
+
+	// 返回会是NaN，即没有值。因为这个把上面那个add函数覆盖了，要想恢复
+	// 把这个函数放在上面，把那个两个参数的放在下面
+//	function add(a,b,c){
+//		var r = a+b+c;
+//		document.write("结果是："+r);
+//	}
+	function add(a,b,c){
+		alert(arguments.length); // a=20,b=30
+		for(var i = 0; i < arguments.length; i++){
+			alert(arguments[i]);
+		}
+		var res = a+b+c;
+		document.write("结果是："+result);
+	}
+	
+	//带返回语句的函数,需要用赋值调用
+	function add1(a,b){
+		var res1 = a+b;
+		return res1;
+	}
+	//赋值调用
+	var c = add1(20,30);
+	document.write("结果是："+c);
+	
+
+	
+</script>
+	</head>
+	<body>
+	</body>
+</html>

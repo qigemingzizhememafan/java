@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>盒子模型的使用</title>
+<style>
+	/* 修饰id=“main"的div */
+	#main{
+		width:450px;
+		height: 300px;
+		
+		/*指定边框*/
+		border:1px solid black;
+		
+		/*设置margin 距离边界的距离 方向为：上   右   下   左*/
+		margin: 200px 0 0 420px;
+		
+	}
+	/*修饰用户名所在的div*/
+	#user{
+		/*设置外边距*/
+		margin: 60px 0 0 100px;
+	}
+	
+	/*修饰密码框所在的div*/
+	#pwd{
+		/*设置外边距*/
+		margin: 20px 0 0 100px;
+	}
+	
+	/*修饰按钮所在的div*/
+	#btn{
+		/*设置外边距*/
+		margin: 20px 0 0 170px;
+	}
+	
+	/*修饰reg_btn*/
+	#reg_btn{
+		/*设置左外边距*/
+		margin-left: 30px;
+	}
+	
+	/*修饰user_input*/
+	#user_input{
+		/*设置背景*/
+		background-image:url(img/head.png) ;
+		background-repeat: no-repeat;
+		/*设置左内边距，不然用户名就写到头像上了*/
+		padding-left: 28px;
+	}
+	
+	/*修饰pwd_input*/
+	#pwd_input{
+		/*设置背景*/
+		background-image:url(img/key.jpg) ;
+		background-repeat: no-repeat;
+		/*设置左内边距，不然用户名就写到头像上了*/
+		padding-left: 28px;
+	}
+</style>		
+	</head>
+	<body>
+<!-- 盒子模型：(div+css)
+		将所有的元素(标签)，使用div进行包裹设置每一个标签对应的样式
+-->
+<div id = "main">
+	<form action="#" method="post">
+		<div id = "user">
+			用户名：<input type="text" id="user_input" name="username" /> 	
+		</div>
+		<div id = "pwd">
+			密&nbsp;&nbsp;&nbsp;码：<input type="password"  id="pwd_input" name="pwd" /> 	
+		</div>
+		<div id = "btn">
+			<input type="button" value="登陆" />
+			<input type="button" id="reg_btn" value="立即注册" />
+		</div>
+		 
+	</form>
+</div>
+	</body>
+</html>

@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>css定位</title>
+<!--
+	css的三种定位方式：
+	定位属性：position
+		1)绝对定位：absolute：针对它的父标签进行移动(向下、向右)
+		2)相对定位：relative：针对之前元素所在位置进行移动(开发中经常使用)
+		3)固定定位：fixed
+				  应用场景：网站中间弹出对话框 随着滚定条的滚动
+				  		 永远在网页中间
+-->
+<style>
+	div{
+		width: 200px;
+		height: 200px;
+		border:1px solid black
+	}
+	#div1{
+		background-color: red;
+	}
+	#div2{
+		background-color: yellow;
+	}
+	#div3{
+		background-color: blueviolet;
+		/*定位属性 position：
+		 			top
+		 			left
+		 */
+		/*position: absolute;*/
+		position:relative;
+		top: 20px;
+		left: 20px;
+	}
+	#adv{
+		width: 300px;
+		height: 300px;
+		background-color: chocolate;
+		/*当前div在页面中某个位置固定*/
+		position: fixed;
+		top:200px;
+		left:440px;
+		
+	}
+</style>
+	</head>
+	<body>
+		<div id="div1">div1</div>
+		<div id="div2">div2</div>
+		<div id="div3">div3</div>
+		广告内容广告内容广告内容广告内容广告内容广告内容广告内容广告内容广告内容广告内容广告内容广告内容广告内容广告内容广告内容广告内容广告内容广告内容广告内容广告内容广告内容广告内容
+		广告内容广告内容广告内容广告内容广告内容广告内容广告内容广告内容广告内容广告内容广告内容广告内容广告内容广告内容广告内容广告内容广告内容广告内容广告内容广告内容广告内容广告内容
+		<br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
+		<br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
+		<div id = "adv">
+			<font color="aqua">立刻咨询</font>
+		</div>
+	</body>
+</html>

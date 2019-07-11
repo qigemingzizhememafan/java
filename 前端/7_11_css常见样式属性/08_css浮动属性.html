@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>CSS浮动属性</title>
+<style>
+	/*设置div样式*/
+	div{
+		width: 200px;
+		height: 150px;
+		border:2px solid red
+	}
+	#d1{
+		background-color: royalblue;
+		/*左浮动，此时div2和div3就重叠在了一起。可以让div2和div3也左浮动。
+		 此时三个就在同一行显示了*/
+		float: left; 
+	}
+	#clear{
+		/*左右两边都不浮动*/
+		clear: both,1;
+	}
+	#d2{
+		background-color: yellow;
+		/*float:left;*/
+	}
+	#d3{
+		background-color: greenyellow;
+		/*float: left;*/
+	}
+</style>
+<!--
+	 浮动属性：float
+	 给某个元素设置浮动之后(left/right)，当前元素就脱离了当前文档流
+	 当前元素不占一行空间，后面的元素进行移动
+	 
+	 清除浮动属性：
+	 	clear属性：both(当前元素的左右两边没有浮动元素)
+	 		left：左边元素不浮动
+	 		right：右边元素不浮动
+-->
+	</head>
+	<body>
+		<div id="d1" >div1</div>
+		<!--此处添加一个div元素-->
+		<div id="clear"></div>
+		<div id="d2">div2</div>
+		<div id="d3">div3</div>
+	</body>
+</html>
