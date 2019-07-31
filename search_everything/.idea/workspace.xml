@@ -1,5 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="search_everything:jar" />
+    </artifacts-to-build>
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="e11352b7-4555-437e-961e-5954a5ce420f" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
@@ -32,53 +37,16 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="FileIndexDaoImpl.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/lzl/search_everything/core/dao/impl/FileIndexDaoImpl.java">
+      <file leaf-file-name="SearchEverythingManager.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/lzl/search_everything/core/search/SearchEverythingManager.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="866">
-              <caret line="53" lean-forward="true" selection-start-line="53" selection-end-line="53" />
+            <state relative-caret-position="346">
+              <caret line="40" column="23" selection-start-line="40" selection-start-column="23" selection-end-line="40" selection-end-column="23" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#722#723#0" expanded="true" />
-                <element signature="e#766#767#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="FileSearchImpl.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/lzl/search_everything/core/search/impl/FileSearchImpl.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="152">
-              <caret line="8" selection-start-line="8" selection-end-line="8" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#449#450#0" expanded="true" />
-                <element signature="e#497#498#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="FileSearch.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/lzl/search_everything/core/search/FileSearch.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="205">
-              <caret line="20" column="5" lean-forward="true" selection-start-line="20" selection-start-column="5" selection-end-line="20" selection-end-column="5" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="FileIndexDao.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/lzl/search_everything/core/dao/FileIndexDao.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="209">
-              <caret line="11" column="11" selection-start-line="11" selection-start-column="11" selection-end-line="11" selection-end-column="11" />
-              <folding>
-                <element signature="imports" expanded="true" />
+                <element signature="method#SearchEverythingManager#0;class#SearchEverythingManager#0" />
+                <element signature="e#1077#1078#0" expanded="true" />
+                <element signature="e#1156#1157#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -91,10 +59,18 @@
       <list>
         <option value="package-info" />
         <option value="Enum" />
+        <option value="Kotlin Class" />
         <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>excludePath</find>
+      <find>toString(</find>
+      <find>main</find>
+    </findStrings>
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -103,18 +79,34 @@
         <option value="$PROJECT_DIR$/src/main/java/com/lzl/search_everything/cmd/package-info.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/lzl/search_everything/config/package-info.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/lzl/search_everything/core/package-info.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/lzl/search_everything/cmd/Search_EverythingCmdApp.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/lzl/search_everything/core/model/FileType.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/lzl/search_everything/core/model/Things.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/resources/search_everything.sql" />
-        <option value="$PROJECT_DIR$/src/main/java/com/lzl/search_everything/core/dao/DataSourceFactory.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/lzl/search_everything/core/dao/FileIndexDaoImpl.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/lzl/search_everything/core/model/Condition.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/lzl/search_everything/core/search/impl/FileSearchImpl.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/lzl/search_everything/core/search/FileSearch.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/lzl/search_everything/core/dao/DataSourceFactory.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/lzl/search_everything/core/index/FileIndex.kt" />
+        <option value="$PROJECT_DIR$/src/main/java/com/lzl/search_everything/core/dao/FileSearch.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/lzl/search_everything/core/dao/FileIndexDao.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/lzl/search_everything/core/index/impl/FileIndexImpl.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/lzl/search_everything/core/dao/impl/FileIndexDaoImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/lzl/search_everything/core/index/FileIndex.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/lzl/search_everything/core/index/Scan.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/lzl/search_everything/core/interceptor/FileInterceptor.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/lzl/search_everything/core/interceptor/impl/FilePrintInterceptor.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/lzl/search_everything/core/search/FileSearch.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/lzl/search_everything/cmd/SearchEverythingCmdApp.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/lzl/search_everything/cmd/Search_EverythingCmdApp.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/lzl/search_everything/cmd/searchEverythingCmdApp.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/lzl/search_everything/config/search_everythingConfig.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/lzl/search_everything/config/searchEverythingConfig.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/lzl/search_everything/core/interceptor/impl/FileIndexInterceptor.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/lzl/search_everything/core/common/FileConverThings.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/lzl/search_everything/core/index/impl/FileScanImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/lzl/search_everything/core/index/FileScan.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/lzl/search_everything/core/search/SearchEverythingManager.java" />
       </list>
     </option>
   </component>
@@ -148,18 +140,14 @@
           <item name="search_everything" type="9519ce18:MavenProjectsStructure$ProjectNode" />
           <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
         </path>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="search_everything" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-          <item name="Dependencies" type="f4be9f2a:MavenProjectsStructure$DependenciesNode" />
-        </path>
       </expand>
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
-    <option name="x" value="189" />
-    <option name="width" value="1218" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="314" />
+    <option name="y" value="78" />
+    <option name="width" value="979" />
     <option name="height" value="728" />
   </component>
   <component name="ProjectView">
@@ -167,6 +155,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -228,7 +217,7 @@
               <item name="com" type="462c0819:PsiDirectoryNode" />
               <item name="lzl" type="462c0819:PsiDirectoryNode" />
               <item name="search_everything" type="462c0819:PsiDirectoryNode" />
-              <item name="core" type="462c0819:PsiDirectoryNode" />
+              <item name="config" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="search_everything" type="b2602c69:ProjectViewProjectNode" />
@@ -240,32 +229,6 @@
               <item name="lzl" type="462c0819:PsiDirectoryNode" />
               <item name="search_everything" type="462c0819:PsiDirectoryNode" />
               <item name="core" type="462c0819:PsiDirectoryNode" />
-              <item name="dao" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="search_everything" type="b2602c69:ProjectViewProjectNode" />
-              <item name="search_everything" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="lzl" type="462c0819:PsiDirectoryNode" />
-              <item name="search_everything" type="462c0819:PsiDirectoryNode" />
-              <item name="core" type="462c0819:PsiDirectoryNode" />
-              <item name="dao" type="462c0819:PsiDirectoryNode" />
-              <item name="impl" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="search_everything" type="b2602c69:ProjectViewProjectNode" />
-              <item name="search_everything" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="lzl" type="462c0819:PsiDirectoryNode" />
-              <item name="search_everything" type="462c0819:PsiDirectoryNode" />
-              <item name="core" type="462c0819:PsiDirectoryNode" />
-              <item name="model" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="search_everything" type="b2602c69:ProjectViewProjectNode" />
@@ -278,19 +241,6 @@
               <item name="search_everything" type="462c0819:PsiDirectoryNode" />
               <item name="core" type="462c0819:PsiDirectoryNode" />
               <item name="search" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="search_everything" type="b2602c69:ProjectViewProjectNode" />
-              <item name="search_everything" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="lzl" type="462c0819:PsiDirectoryNode" />
-              <item name="search_everything" type="462c0819:PsiDirectoryNode" />
-              <item name="core" type="462c0819:PsiDirectoryNode" />
-              <item name="search" type="462c0819:PsiDirectoryNode" />
-              <item name="impl" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="search_everything" type="b2602c69:ProjectViewProjectNode" />
@@ -303,9 +253,8 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="AndroidView" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -315,7 +264,15 @@
     <property name="last_directory_selection" value="$PROJECT_DIR$/src/main/java/com/lzl/search_everything/core/dao" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.annotationProcessors" />
+    <property name="project.structure.last.edited" value="Artifacts" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.25170067" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\web-code1\search_everything\src\main\java\com\lzl\search_everything\core\dao" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -329,21 +286,10 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.FileIndexDaoImpl">
-    <configuration name="DataSourceFactory" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.lzl.search_everything.core.dao.DataSourceFactory" />
-      <module name="search_everything" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.lzl.search_everything.core.dao.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-    </configuration>
+  <component name="RunManager" selected="Application.FileScan">
     <configuration name="FileIndexDaoImpl" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.lzl.search_everything.core.dao.impl.FileIndexDaoImpl" />
-      <module name="search_everything" />
+      <module name="searchEverything" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
@@ -352,9 +298,31 @@
         </pattern>
       </extension>
     </configuration>
+    <configuration name="FileScan" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.lzl.search_everything.core.index.FileScan" />
+      <module name="searchEverything" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.lzl.search_everything.core.index.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
+    <configuration name="FileScanImpl" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.lzl.search_everything.core.index.impl.FileScanImpl" />
+      <module name="searchEverything" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.lzl.search_everything.core.index.impl.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
     <configuration name="FileSearch" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.lzl.search_everything.core.search.FileSearch" />
-      <module name="search_everything" />
+      <module name="searchEverything" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
@@ -363,30 +331,19 @@
         </pattern>
       </extension>
     </configuration>
-    <configuration name="FileType" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.lzl.search_everything.core.model.FileType" />
-      <module name="search_everything" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.lzl.search_everything.core.model.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-    </configuration>
-    <configuration name="Search_EverythingCmdApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.lzl.search_everything.cmd.Search_EverythingCmdApp" />
-      <module name="search_everything" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.lzl.search_everything.cmd.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-    </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+    </configuration>
+    <configuration name="searchEverythingConfig" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.lzl.search_everything.config.searchEverythingConfig" />
+      <module name="searchEverything" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.lzl.search_everything.config.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
     </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
@@ -427,19 +384,19 @@
       <listeners />
     </configuration>
     <list>
-      <item itemvalue="Application.Search_EverythingCmdApp" />
-      <item itemvalue="Application.FileType" />
-      <item itemvalue="Application.DataSourceFactory" />
       <item itemvalue="Application.FileSearch" />
       <item itemvalue="Application.FileIndexDaoImpl" />
+      <item itemvalue="Application.searchEverythingConfig" />
+      <item itemvalue="Application.FileScanImpl" />
+      <item itemvalue="Application.FileScan" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.FileScan" />
+        <item itemvalue="Application.FileScanImpl" />
+        <item itemvalue="Application.searchEverythingConfig" />
         <item itemvalue="Application.FileIndexDaoImpl" />
         <item itemvalue="Application.FileSearch" />
-        <item itemvalue="Application.DataSourceFactory" />
-        <item itemvalue="Application.FileType" />
-        <item itemvalue="Application.Search_EverythingCmdApp" />
       </list>
     </recent_temporary>
   </component>
@@ -458,11 +415,18 @@
       <workItem from="1564408047791" duration="197000" />
       <workItem from="1564461906458" duration="884000" />
       <workItem from="1564474616274" duration="15827000" />
+      <workItem from="1564495618879" duration="395000" />
+      <workItem from="1564499160687" duration="125000" />
+      <workItem from="1564529985585" duration="15030000" />
+      <workItem from="1564545226268" duration="1348000" />
+      <workItem from="1564546665563" duration="2472000" />
+      <workItem from="1564572006720" duration="519000" />
+      <workItem from="1564572695120" duration="3743000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="23438000" />
+    <option name="totallyTimeSpent" value="47070000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -482,59 +446,59 @@
       <window_info anchor="right" id="Palette&#9;" order="3" />
       <window_info id="Image Layers" order="2" />
       <window_info anchor="right" id="Capture Analysis" order="3" />
-      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" weight="0.3293718" />
-      <window_info anchor="right" id="Maven Projects" order="3" weight="0.019667171" />
+      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.5015129" side_tool="true" weight="0.3820034" />
+      <window_info anchor="right" id="Maven Projects" order="3" weight="0.2473525" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.34295416" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49848714" weight="0.3514431" />
       <window_info anchor="right" id="Mybatis datasource" order="3" show_stripe_button="false" side_tool="true" />
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.3293718" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4991511" visible="true" weight="0.28290468" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4991511" visible="true" weight="0.24357034" />
       <window_info anchor="right" id="Database" order="3" weight="0.32980332" />
-      <window_info anchor="bottom" id="Find" order="1" />
       <window_info id="Structure" order="1" sideWeight="0.5008489" side_tool="true" weight="0.24886535" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="2" />
       <window_info anchor="right" id="Theme Preview" order="3" />
       <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.53140914" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.24962178" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.3293718" />
     </layout>
     <layout-to-restore>
       <window_info anchor="right" id="Palette" order="3" />
-      <window_info id="Designer" order="2" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Terminal" order="11" weight="0.3293718" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.24962178" />
       <window_info anchor="right" id="Capture Analysis" order="4" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.51443124" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4991511" visible="true" weight="0.24886535" />
-      <window_info id="Structure" order="1" sideWeight="0.5008489" side_tool="true" weight="0.24886535" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49924356" weight="0.48217317" />
       <window_info anchor="right" id="Theme Preview" order="5" />
-      <window_info anchor="bottom" id="TODO" order="6" weight="0.3293718" />
-      <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
-      <window_info id="Image Layers" order="3" />
-      <window_info id="Capture Tool" order="4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info id="UI Designer" order="5" />
-      <window_info active="true" anchor="bottom" id="Messages" order="8" visible="true" weight="0.23259762" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4991511" visible="true" weight="0.27382752" />
+      <window_info id="Structure" order="1" sideWeight="0.5008489" side_tool="true" weight="0.24886535" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.3293718" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info active="true" anchor="bottom" id="Find" order="1" visible="true" weight="0.3293718" />
       <window_info anchor="right" id="Database" order="6" weight="0.32980332" />
       <window_info anchor="right" id="Palette&#9;" order="7" />
       <window_info anchor="right" id="Mybatis datasource" order="8" show_stripe_button="false" side_tool="true" />
-      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" weight="0.3293718" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50075644" side_tool="true" weight="0.48217317" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="Version Control" order="10" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="bottom" id="Terminal" order="11" weight="0.3293718" />
-      <window_info anchor="right" id="Maven Projects" order="9" weight="0.019667171" />
+      <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.53140914" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Messages" order="8" weight="0.23259762" />
+      <window_info anchor="right" id="Maven Projects" order="9" weight="0.2473525" />
       <window_info id="Favorites" order="6" side_tool="true" />
     </layout-to-restore>
   </component>
@@ -544,27 +508,30 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <option name="time" value="3" />
+    </breakpoint-manager>
+    <watches-manager>
+      <configuration name="Application">
+        <watch expression="config.getExcludePath()" language="JAVA" />
+      </configuration>
+    </watches-manager>
+  </component>
+  <component name="debuggerHistoryManager">
+    <expressions id="watch">
+      <expression>
+        <expression-string>config.getExcludePath()</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+    </expressions>
+  </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/lzl/search_everything/cmd/Search_EverythingCmdApp.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="57">
-          <caret line="4" column="40" selection-start-line="4" selection-start-column="40" selection-end-line="4" selection-end-column="40" />
-          <folding>
-            <element signature="e#122#123#0" expanded="true" />
-            <element signature="e#182#183#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/lzl/search_everything/core/model/FileType.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="171">
           <caret line="9" column="3" selection-start-line="9" selection-start-column="3" selection-end-line="9" selection-end-column="3" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#447#448#0" expanded="true" />
-            <element signature="e#504#505#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -572,10 +539,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="171">
           <caret line="9" selection-start-line="9" selection-end-line="9" />
-          <folding>
-            <element signature="e#527#528#0" expanded="true" />
-            <element signature="e#558#559#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -593,14 +556,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/lzl/search_everything/cmd/Search_EverythingCmdApp.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/lzl/search_everything/cmd/searchEverythingCmdApp.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="57">
           <caret line="4" column="40" selection-start-line="4" selection-start-column="40" selection-end-line="4" selection-end-column="40" />
-          <folding>
-            <element signature="e#122#123#0" expanded="true" />
-            <element signature="e#182#183#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -615,11 +574,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="114">
           <caret line="9" column="3" selection-start-line="9" selection-start-column="3" selection-end-line="9" selection-end-column="3" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#447#448#0" expanded="true" />
-            <element signature="e#504#505#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -627,10 +581,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="171">
           <caret line="9" selection-start-line="9" selection-end-line="9" />
-          <folding>
-            <element signature="e#527#528#0" expanded="true" />
-            <element signature="e#558#559#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -641,14 +591,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/lzl/search_everything/cmd/Search_EverythingCmdApp.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/lzl/search_everything/cmd/searchEverythingCmdApp.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="57">
           <caret line="4" column="40" selection-start-line="4" selection-start-column="40" selection-end-line="4" selection-end-column="40" />
-          <folding>
-            <element signature="e#122#123#0" expanded="true" />
-            <element signature="e#182#183#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -663,11 +609,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="171">
           <caret line="9" column="3" selection-start-line="9" selection-start-column="3" selection-end-line="9" selection-end-column="3" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#447#448#0" expanded="true" />
-            <element signature="e#504#505#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -675,10 +616,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="171">
           <caret line="9" selection-start-line="9" selection-end-line="9" />
-          <folding>
-            <element signature="e#527#528#0" expanded="true" />
-            <element signature="e#558#559#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -689,14 +626,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/lzl/search_everything/cmd/Search_EverythingCmdApp.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/lzl/search_everything/cmd/searchEverythingCmdApp.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="57">
           <caret line="4" column="40" selection-start-line="4" selection-start-column="40" selection-end-line="4" selection-end-column="40" />
-          <folding>
-            <element signature="e#122#123#0" expanded="true" />
-            <element signature="e#182#183#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -704,11 +637,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="114">
           <caret line="9" column="3" selection-start-line="9" selection-start-column="3" selection-end-line="9" selection-end-column="3" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#447#448#0" expanded="true" />
-            <element signature="e#504#505#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -716,10 +644,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="171">
           <caret line="9" selection-start-line="9" selection-end-line="9" />
-          <folding>
-            <element signature="e#527#528#0" expanded="true" />
-            <element signature="e#558#559#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -744,20 +668,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/lzl/search_everything/cmd/package-info.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="38">
-          <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/lzl/search_everything/config/package-info.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/lzl/search_everything/core/package-info.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="76">
@@ -773,108 +683,204 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/lzl/search_everything/cmd/Search_EverythingCmdApp.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/lzl/search_everything/core/index/FileIndex.kt" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/lzl/search_everything/core/dao/FileIndexDao.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="57">
-          <caret line="4" column="40" selection-start-line="4" selection-start-column="40" selection-end-line="4" selection-end-column="40" />
-          <folding>
-            <element signature="e#122#123#0" expanded="true" />
-            <element signature="e#182#183#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/2a3017e1-83a7-4b05-a013-460641126bbb/console.sql">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="551">
-          <caret line="62" selection-start-line="62" selection-end-line="62" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/lzl/search_everything/core/model/Condition.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="10" column="28" lean-forward="true" selection-start-line="10" selection-start-column="28" selection-end-line="10" selection-end-column="28" />
+        <state relative-caret-position="171">
+          <caret line="12" column="15" selection-start-line="12" selection-start-column="15" selection-end-line="12" selection-end-column="15" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/lzl/search_everything/core/model/FileType.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="163">
+        <state relative-caret-position="309">
           <caret line="46" column="53" selection-start-line="46" selection-start-column="53" selection-end-line="46" selection-end-column="53" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/search_everything.sql">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/lzl/search_everything/core/model/Condition.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="19">
-          <caret line="1" column="9" lean-forward="true" selection-start-line="1" selection-start-column="9" selection-end-line="1" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/lzl/search_everything/core/dao/DataSourceFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1034">
-          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/lzl/search_everything/core/model/Things.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-8">
-          <caret line="6" column="36" selection-start-line="6" selection-start-column="36" selection-end-line="6" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/lzl/search_everything/core/dao/FileIndexDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="11" column="11" selection-start-line="11" selection-start-column="11" selection-end-line="11" selection-end-column="11" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/lzl/search_everything/core/dao/impl/FileIndexDaoImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="866">
-          <caret line="53" lean-forward="true" selection-start-line="53" selection-end-line="53" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#722#723#0" expanded="true" />
-            <element signature="e#766#767#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/lzl/search_everything/core/search/FileSearch.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="205">
-          <caret line="20" column="5" lean-forward="true" selection-start-line="20" selection-start-column="5" selection-end-line="20" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="54">
+          <caret line="10" column="28" lean-forward="true" selection-start-line="10" selection-start-column="28" selection-end-line="10" selection-end-column="28" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/lzl/search_everything/core/search/impl/FileSearchImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="8" selection-start-line="8" selection-end-line="8" />
+        <state relative-caret-position="76">
+          <caret line="17" column="5" lean-forward="true" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/lzl/search_everything/core/dao/impl/FileIndexDaoImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1121">
+          <caret line="163" column="7" lean-forward="true" selection-start-line="163" selection-start-column="7" selection-end-line="163" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/lzl/search_everything/config/package-info.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/lzl/search_everything/core/interceptor/impl/FilePrintInterceptor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="104">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/lzl/search_everything/core/model/Things.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="380">
+          <caret line="20" column="13" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_131/src.zip!/java/io/File.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="40660">
+          <caret line="2140" column="27" selection-start-line="2140" selection-start-column="18" selection-end-line="2140" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_131/src.zip!/java/lang/Object.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3971">
+          <caret line="235" column="72" selection-start-line="235" selection-start-column="64" selection-end-line="235" selection-end-column="72" />
+          <folding>
+            <element signature="e#10065#10066#0" expanded="true" />
+            <element signature="e#10148#10149#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/lzl/search_everything/core/interceptor/FileInterceptor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="9" column="17" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../maven_client/src/main/java/com/lzl/highchat_client/client/multi/MultiThreadClient.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="14" column="16" lean-forward="true" selection-start-line="14" selection-start-column="16" selection-end-line="14" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/lzl/search_everything/core/search/FileSearch.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="7" selection-start-line="7" selection-end-line="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/lzl/search_everything/core/dao/DataSourceFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="15" column="7" selection-start-line="15" selection-start-column="7" selection-end-line="15" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/search_everything.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="7" column="26" selection-start-line="7" selection-start-column="26" selection-end-line="7" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/lzl/search_everything/core/interceptor/impl/FileIndexInterceptor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="235">
+          <caret line="18" column="55" selection-start-line="18" selection-start-column="55" selection-end-line="18" selection-end-column="55" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#449#450#0" expanded="true" />
-            <element signature="e#497#498#0" expanded="true" />
+            <element signature="e#256#257#0" expanded="true" />
+            <element signature="e#304#305#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/lzl/search_everything/core/common/FileConverThings.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="24" column="63" selection-start-line="24" selection-start-column="63" selection-end-line="24" selection-end-column="63" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/lzl/search_everything/config/searchEverythingConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-905">
+          <caret line="15" column="35" selection-start-line="15" selection-start-column="35" selection-end-line="15" selection-end-column="35" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/lzl/search_everything/cmd/packageInfo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="38" selection-start-column="38" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/lzl/search_everything/cmd/searchEverythingCmdApp.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="2" column="35" selection-start-line="2" selection-start-column="35" selection-end-line="2" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/lzl/search_everything/core/index/impl/FileScanImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="77" column="7" selection-start-line="77" selection-start-column="7" selection-end-line="77" selection-end-column="7" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1964#1965#0" expanded="true" />
+            <element signature="e#2018#2019#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/lzl/search_everything/core/index/FileScan.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="254">
+          <caret line="25" column="29" selection-start-line="25" selection-start-column="29" selection-end-line="25" selection-end-column="29" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/search_everything.trace.db">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/target/classes/search_everything.sql">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-639">
+          <caret line="67" selection-start-line="67" selection-end-line="67" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/search_everything.mv.db">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-296">
+          <caret line="6" column="47" selection-start-line="6" selection-start-column="47" selection-end-line="6" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/lzl/search_everything/core/search/SearchEverythingManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="346">
+          <caret line="40" column="23" selection-start-line="40" selection-start-column="23" selection-end-line="40" selection-end-column="23" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#SearchEverythingManager#0;class#SearchEverythingManager#0" />
+            <element signature="e#1077#1078#0" expanded="true" />
+            <element signature="e#1156#1157#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -882,9 +888,83 @@
   </component>
   <component name="masterDetails">
     <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <last-edited>search_everything:jar</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.25170067" />
+                <option value="0.5" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>No facets are configured</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>search_everything</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.25170067" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
       <state key="ProjectJDKs.UI">
         <settings>
           <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>Maven: com.alibaba:druid:1.1.2</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>

@@ -5,15 +5,15 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>com.lzl</groupId>
-    <artifactId>search_everything</artifactId>
+    <artifactId>searchEverything</artifactId>
     <version>1.0.0</version>
     <!--java应用程序-->
     <packaging>jar</packaging>
-    <name>search_everything</name>
+    <name>searchEverything</name>
 
     <!--项目描述信息-->
     <description>
-        search_everything桌面工具Java实现
+        searchEverything桌面工具Java实现
     </description>
 
     <!--开发者信息-->
@@ -53,6 +53,11 @@
             <version>1.4.197</version>
         </dependency>
         <!--数据库的连接池(目的：提高数据库的访问效率)-->
+        <!--<dependency>-->
+            <!--<groupId>com.alibaba</groupId>-->
+            <!--<artifactId>druid</artifactId>-->
+            <!--<version>1.1.2</version>-->
+        <!--</dependency>-->
         <dependency>
             <groupId>com.alibaba</groupId>
             <artifactId>druid</artifactId>
@@ -62,23 +67,23 @@
     </dependencies>
 
     <!--程序构建信息-->
-    <build>
-        <!--maven的功能都是通过插件完成的
+    <!--<build>
+        &lt;!&ndash;maven的功能都是通过插件完成的
             1. plugin -> 多个goals
             2. 执行goal -> 绑定生命周期的某个阶段
             3. plugin 使用文档
-            -->
+            &ndash;&gt;
         <plugins>
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-jar-plugin</artifactId>
                 <version>3.1.0</version>
                 <configuration>
-                    <!--配置主清单文件-->
+                    &lt;!&ndash;配置主清单文件&ndash;&gt;
                     <archive>
                         <manifest>
                             <addClasspath>true</addClasspath>
-                            <mainClass>com.lzl.search_everything.cmd.Search_EverythingCmdApp</mainClass>
+                            <mainClass>com.lzl.search_everything.cmd.searchEverythingCmdApp/mainClass>
                             <classpathPrefix>lib</classpathPrefix>
                         </manifest>
                     </archive>
@@ -102,6 +107,6 @@
                 </executions>
             </plugin>
         </plugins>
-    </build>
+    </build>-->
 
 </project>

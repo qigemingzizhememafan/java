@@ -19,7 +19,7 @@ import java.util.List;
  * 业务层
  */
 public class FileIndexDaoImpl implements FileIndexDao {
-    private final DataSource dataSource;
+    private DataSource dataSource;
 
     public FileIndexDaoImpl(DataSource dataSource) {
         this.dataSource = dataSource;
@@ -50,8 +50,8 @@ public class FileIndexDaoImpl implements FileIndexDao {
         }
     }
 
-//    @Override
 
+    @Override
     public List<Things> search(Condition condition) {
         List<Things> things1 = new ArrayList<>();
         // TODO
@@ -115,7 +115,9 @@ public class FileIndexDaoImpl implements FileIndexDao {
         return things1;
     }
 
+
     // 解决内部代码大量重复问题：重构
+    //关闭流
     private void releaseResource(ResultSet resultSet,PreparedStatement statement,Connection connection){
         if(resultSet != null){
             try {
@@ -139,7 +141,6 @@ public class FileIndexDaoImpl implements FileIndexDao {
             }
         }
     }
-
 
 //     测试搜索功能代码，结果正确
 //    public static void main(String[] args) {
