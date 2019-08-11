@@ -1,4 +1,0 @@
-package com.lzl.search_everything.ui;
-/**
- *  该包主要归档和用户界面交互相关的程序
- */
