@@ -4,7 +4,7 @@ import java.util.List;
 import java.util.Scanner;
 
 // m进制数转为n进制
-//public class Test {
+//public class tenTest {
 //    public static void main(String[] args) {
 //        Scanner sc = new Scanner(System.in);
 //        while(sc.hasNext()){
@@ -117,7 +117,7 @@ import java.util.Scanner;
 
 
 // 最大公共子串长度
-//public class Test{
+//public class tenTest{
 //    public static String maxString(String s1, String s2) {
 //        String res = "";
 //        if (s1 == null || s1.length() == 0 || s2 == null || s2.length() == 0)
@@ -148,7 +148,7 @@ import java.util.Scanner;
 //}
 
 
-//public class Test{
+//public class tenTest{
 //    public static void main(String[] args){
 //        Scanner sc = new Scanner(System.in);
 //            String s1 = sc.nextLine();
@@ -194,7 +194,7 @@ import java.util.Scanner;
 // 统计一个字符串中每个字符出现的次数
 // 输出出现次数最多的那个字符
 import java.util.*;
-public class Test {
+public class tenTest {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         while (sc.hasNext()) {
